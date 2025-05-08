@@ -24,6 +24,13 @@ A full-stack expense manager application built with **React** and **Node.js**. T
     - Budget exceeds expenses.
     - Expenses near 90% of the budget.
 - **User Activity Logging**: Logs user-related actions, including email events.
+  
+### Financial Insights
+- **Get Total Spending**: Calculates the total amount spent by the user across all expenses.
+- **Get Total Budget**: Retrieves the total budget allocated by the user across all categories.
+- **Get Potential Savings**: Computes the potential savings based on the user’s budget and actual spending, ensuring no negative savings.
+- **Get Remaining Budget**: Calculates the remaining budget after subtracting total spending from the total budget.
+- **Get Overspent Categories**: Identifies and lists the categories where the user has overspent beyond their budget.
 
 ### Expense Management
 - **CRUD Operations for Expenses**: Add, Edit, and Delete expenses with descriptions, amounts, and categories.
